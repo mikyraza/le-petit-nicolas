@@ -1,0 +1,10 @@
+*.zip
+*.tar.gz
+*.rar
+captures_ecran/
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+.git
+start_site.sh
