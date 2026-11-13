@@ -1,0 +1,197 @@
+/* ==========================================================================
+   Composants (Boutons, Cartes, Formulaires)
+   ========================================================================== */
+
+/* --- BOUTONS --- */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 28px;
+    font-family: var(--font-primary);
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: var(--radius-md);
+    transition: all var(--transition-normal);
+    text-align: center;
+    gap: 8px; /* For icons */
+}
+
+.btn-primary {
+    background-color: var(--color-orange);
+    color: var(--color-white);
+}
+
+.btn-primary:hover {
+    background-color: var(--color-orange-dark);
+    transform: translateY(-2px);
+    color: var(--color-white);
+    box-shadow: 0 4px 10px rgba(255, 152, 0, 0.3);
+}
+
+.btn-secondary {
+    background-color: transparent;
+    border: 2px solid var(--color-green);
+    color: var(--color-green);
+}
+
+.btn-secondary:hover {
+    background-color: var(--color-green);
+    color: var(--color-white);
+    transform: translateY(-2px);
+}
+
+.btn-tertiary {
+    background-color: var(--color-light-gray);
+    color: var(--color-text);
+}
+
+.btn-tertiary:hover {
+    background-color: #E0E0E0;
+}
+
+/* --- CARTES DE MISSION --- */
+.mission-card {
+    background: var(--color-white);
+    border-radius: var(--radius-lg);
+    padding: 30px;
+    box-shadow: var(--shadow-md);
+    transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+    border-top: 5px solid transparent;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.mission-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+
+.mission-card.mission-edu { border-top-color: var(--color-green); }
+.mission-card.mission-famine { border-top-color: var(--color-orange); }
+.mission-card.mission-clothes { border-top-color: var(--color-blue); }
+
+.mission-icon {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.mission-edu .mission-icon { color: var(--color-green); }
+.mission-famine .mission-icon { color: var(--color-orange); }
+.mission-clothes .mission-icon { color: var(--color-blue); }
+
+.mission-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.mission-desc {
+    color: var(--color-text-secondary);
+    margin-bottom: 20px;
+    flex-grow: 1;
+}
+
+/* --- CARTES ACTIONS --- */
+.action-card {
+    background: var(--color-white);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: var(--shadow-md);
+    transition: transform var(--transition-normal);
+}
+
+.action-card:hover {
+    transform: translateY(-5px);
+}
+
+.action-img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    transition: transform var(--transition-slow);
+}
+
+.action-card:hover .action-img {
+    transform: scale(1.05);
+}
+
+.action-img-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.action-badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: var(--color-white);
+    font-family: var(--font-primary);
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 5px 12px;
+    border-radius: 20px;
+    z-index: 2;
+}
+
+.action-content {
+    padding: 25px;
+}
+
+.action-meta {
+    font-size: 0.85rem;
+    color: var(--color-gray);
+    margin-bottom: 10px;
+    display: flex;
+    gap: 15px;
+}
+
+.action-content h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.read-more {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-family: var(--font-primary);
+    font-weight: 600;
+    color: var(--color-orange);
+    margin-top: 15px;
+}
+
+.read-more:hover {
+    gap: 10px;
+}
+
+/* --- FORMULAIRES --- */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: var(--color-text);
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    font-family: var(--font-secondary);
+    transition: all var(--transition-fast);
+}
+
+.form-control:focus {
+    border-color: var(--color-blue);
+    box-shadow: 0 0 0 3px rgba(33, 150, 243, 0.1);
+}
+
+textarea.form-control {
+    resize: vertical;
+    min-height: 120px;
+}

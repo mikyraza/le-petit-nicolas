@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Association Humanitaire "LE PETIT NICOLAS" - Cameroun</title>
+    <meta name="description" content="Association Humanitaire &quot;LE PETIT NICOLAS&quot; au Cameroun. Éducation, la petite enfance, les personnes vulnérables. L'énergie qui fait bouger les lignes.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS unique consolidé -->
+    <link rel="stylesheet" href="assets/css/style.css?v=4.0">
+    </head>
+<body>
+
+    <!-- BARRE DE PROGRESSION DE NAVIGATION -->
+    <div id="nav-progress-bar" class="nav-progress-bar"></div>
+
+    <!-- PRELOADER INTRO DU SITE (ANIMATION DU LOGO AU DEMARRAGE) -->
+    <div id="site-preloader" class="site-preloader" aria-hidden="true">
+        <div class="preloader-inner">
+            <div class="preloader-logo-box">
+                <img src="assets/images/logo/logo-pn.jpg" alt="Logo Association Le Petit Nicolas" class="preloader-logo-img">
+                <div class="energy-glow-ring"></div>
+            </div>
+            <div class="preloader-text-box">
+                <span class="preloader-sub">Association Humanitaire</span>
+                <h2 class="preloader-title">"LE PETIT NICOLAS"</h2>
+                <div class="preloader-energy-line">
+                    <div class="energy-pulse"></div>
+                </div>
+                <p class="preloader-slogan">"L'énergie qui fait bouger les lignes"</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- TRANSITION DE PAGE SWUP (ANIMATION DU LOGO ENTRE LES PAGES) -->
+    <div id="page-transition" class="page-transition" aria-hidden="true">
+        <div class="transition-inner">
+            <div class="transition-logo-circle">
+                <img src="assets/images/logo/logo-pn.jpg" alt="Logo Le Petit Nicolas" class="transition-logo-img">
+                <div class="transition-ripple"></div>
+            </div>
+            <span class="transition-text">L'énergie qui fait bouger les lignes</span>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+    <header class="site-header">
+        <div class="container header-container">
+            <!-- Logo -->
+            <a href="index.html" class="logo-link">
+                <img src="assets/images/logo/logo-pn.jpg" alt="Logo Le Petit Nicolas" class="site-logo">
+                <div class="logo-text">
+                    <span class="logo-subtitle">Association Humanitaire</span>
+                    <span class="logo-title">"LE PETIT NICOLAS"</span>
+                </div>
+            </a>
+
+            <!-- Navigation -->
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="active">Accueil</a></li>
+                    <li><a href="qui-sommes-nous.html" >Qui sommes-nous ?</a></li>
+                    <li><a href="nos-missions.html" >Nos missions</a></li>
+                    <li><a href="nos-actions.html" >Nos actions</a></li>
+                    <li><a href="contact.html" >Contact</a></li>
+                    <li class="nav-mobile-cta">
+                        <a href="nous-soutenir.html" class="btn-mobile-support ">
+                            <i class="fa-solid fa-heart"></i> Nous soutenir
+                        </a>
+                    </li>
+                </ul>
+                <div class="header-cta">
+                    <a href="nous-soutenir.html" class="btn btn-primary">Nous soutenir</a>
+                </div>
+            </nav>
+
+            <!-- Mobile Toggle -->
+            <button class="menu-toggle" aria-label="Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+<main id="swup" class="transition-fade">
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-slideshow">
+            <div class="hero-slide active" style="background-image: url('assets/images/hero/Children_laughing_in_202604231305.jpeg');"></div>
+            <div class="hero-slide" style="background-image: url('assets/images/hero/Children_sharing_nutritious_202604231304.jpeg');"></div>
+            <div class="hero-slide" style="background-image: url('assets/images/hero/benevole-donne-vetement-202604231301.jpeg');"></div>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="hero-title">Association Humanitaire<br>"LE PETIT NICOLAS"</h1>
+            <div class="hero-pillars">
+                <span class="pillar-tag"><i class="fa-solid fa-graduation-cap"></i> Éducation</span>
+                <span class="pillar-tag"><i class="fa-solid fa-child-reaching"></i> La petite enfance</span>
+                <span class="pillar-tag"><i class="fa-solid fa-hands-holding-child"></i> Les personnes vulnérables</span>
+            </div>
+            <p class="hero-slogan">"L'énergie qui fait bouger les lignes"</p>
+            <div class="hero-actions">
+                <a href="#missions" class="btn btn-primary btn-hero-primary">
+                    <span>Découvrir nos actions</span>
+                    <i class="fa-solid fa-arrow-down"></i>
+                </a>
+                <a href="contact.html?sujet=don" class="btn btn-secondary btn-hero-secondary">
+                    <i class="fa-solid fa-heart" style="color:var(--color-orange); margin-right:6px;"></i>
+                    <span>Nous soutenir</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- INDICATEUR DE DEFILEMENT SOURIS -->
+        <a href="#presentation" class="hero-scroll-indicator" aria-label="Découvrir la suite">
+            <span class="scroll-mouse">
+                <span class="scroll-wheel"></span>
+            </span>
+            <span class="scroll-text">Découvrir <i class="fa-solid fa-chevron-down"></i></span>
+        </a>
+    </section>
+
+    <!-- PRESENTATION SECTION -->
+    <section id="presentation" class="section-padding bg-light" data-reveal="fade-up">
+        <div class="container presentation-grid">
+            <div class="presentation-text" data-reveal="fade-right">
+                <span class="section-subtitle">Solidarité & Action au Cameroun</span>
+                <h2>Qui sommes-nous ?</h2>
+                <div class="section-divider"></div>
+                <p>L'Association Humanitaire "LE PETIT NICOLAS" agit au Cameroun au plus près du terrain pour soutenir la petite enfance, les élèves et les personnes vulnérables. Fondée sur un esprit communautaire et des valeurs de solidarité humaine, notre association concentre son énergie sur trois missions essentielles : l'éducation, la lutte contre la faim et la dignité par l'habillement.</p>
+                <p style="margin-top:15px; margin-bottom:25px;">Chaque jour, nos équipes et bénévoles s'engagent directement auprès des familles et des écoles pour apporter un soutien concret et mesurable. Nous croyons que chaque enfant mérite d'étudier dignement, qu'aucune personne ne doit souffrir de la faim, et que l'entraide communautaire fait véritablement bouger les lignes.</p>
+                <a href="qui-sommes-nous.html" class="btn btn-tertiary btn-animated-arrow">
+                    <span>En savoir plus</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="presentation-image-wrapper" data-reveal="fade-left" data-tilt>
+                <div class="image-frame-decor">
+                    <img src="assets/images/presentation.jpeg" alt="Equipe Le Petit Nicolas" class="presentation-img">
+                    <div class="image-floating-badge">
+                        <i class="fa-solid fa-heart-pulse"></i>
+                        <span>Au cœur de l'humain</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MISSIONS SECTION -->
+    <section id="missions" class="section-padding" data-reveal="fade-up">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Les missions de "Le Petit Nicolas"</span>
+                <h2>Notre mission :</h2>
+                <div class="section-divider center"></div>
+                <p style="color:var(--color-text-secondary); max-width:650px; margin:10px auto 0;">Des actions de proximité pour l'éducation, la petite enfance et les personnes vulnérables.</p>
+            </div>
+            
+            <div class="missions-grid reveal-stagger">
+                <!-- Mission 1 -->
+                <div class="mission-card mission-edu" data-tilt>
+                    <div class="card-accent-bar edu"></div>
+                    <div class="mission-icon-box edu">
+                        <i class="fa-solid fa-graduation-cap mission-icon"></i>
+                    </div>
+                    <h3 class="mission-title">Fourniture de matériel didactique aux écoles</h3>
+                    <p class="mission-desc">Nous équipons les écoles camerounaises avec le matériel nécessaire à un apprentissage de qualité. Cahiers, stylos, livres et outils pédagogiques essentiels pour que chaque enfant puisse apprendre dans de bonnes conditions.</p>
+                    <a href="nos-missions.html#materiel-didactique" class="btn btn-secondary btn-card-action">En savoir plus</a>
+                </div>
+
+                <!-- Mission 2 -->
+                <div class="mission-card mission-famine" data-tilt>
+                    <div class="card-accent-bar famine"></div>
+                    <div class="mission-icon-box famine">
+                        <i class="fa-solid fa-bowl-rice mission-icon"></i>
+                    </div>
+                    <h3 class="mission-title">Action de lutte contre la famine</h3>
+                    <p class="mission-desc">Nous organisons des distributions de repas chauds, cantines solidaires et denrées alimentaires pour venir en aide à la petite enfance et aux personnes vulnérables. Notre objectif : que personne ne reste le ventre vide.</p>
+                    <a href="nos-missions.html#lutte-famine" class="btn btn-secondary btn-card-action" style="border-color:var(--color-orange); color:var(--color-orange);">En savoir plus</a>
+                </div>
+
+                <!-- Mission 3 -->
+                <div class="mission-card mission-clothes" data-tilt>
+                    <div class="card-accent-bar clothes"></div>
+                    <div class="mission-icon-box clothes">
+                        <i class="fa-solid fa-shirt mission-icon"></i>
+                    </div>
+                    <h3 class="mission-title">Fourniture des articles vestimentaires</h3>
+                    <p class="mission-desc">Nous collectons et distribuons des vêtements neufs et adaptés ainsi que des chaussures aux enfants et familles vulnérables. Parce que l'habillement est un besoin fondamental et un vecteur de dignité humaine.</p>
+                    <a href="nos-missions.html#articles-vestimentaires" class="btn btn-secondary btn-card-action" style="border-color:var(--color-blue); color:var(--color-blue);">En savoir plus</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION CHIFFRES CLES & IMPACT -->
+    <section class="stats-section" data-reveal="fade-up">
+        <div class="stats-ambient-glow"></div>
+        <div class="container" style="position:relative; z-index:2;">
+            <div class="section-header" style="margin-bottom:45px;">
+                <span class="section-subtitle" style="color:var(--color-orange);">Notre Impact Concret</span>
+                <h2 style="color:#ffffff;">L'énergie qui fait bouger les lignes en chiffres</h2>
+                <div class="section-divider center orange"></div>
+            </div>
+            <div class="stats-grid reveal-stagger">
+                <div class="stat-card" data-tilt>
+                    <div class="stat-icon-wrapper edu">
+                        <i class="fa-solid fa-graduation-cap stat-icon" style="color:var(--color-green);"></i>
+                        <span class="stat-halo"></span>
+                    </div>
+                    <div class="stat-number" data-target="500" data-prefix="+">0</div>
+                    <p class="stat-label">Élèves équipés en kits et matériel didactique</p>
+                </div>
+                <div class="stat-card" data-tilt>
+                    <div class="stat-icon-wrapper famine">
+                        <i class="fa-solid fa-bowl-rice stat-icon" style="color:var(--color-orange);"></i>
+                        <span class="stat-halo"></span>
+                    </div>
+                    <div class="stat-number" data-target="1200" data-prefix="+">0</div>
+                    <p class="stat-label">Repas chauds distribués (Lutte contre la faim)</p>
+                </div>
+                <div class="stat-card" data-tilt>
+                    <div class="stat-icon-wrapper clothes">
+                        <i class="fa-solid fa-shirt stat-icon" style="color:var(--color-blue);"></i>
+                        <span class="stat-halo"></span>
+                    </div>
+                    <div class="stat-number" data-target="200" data-prefix="+">0</div>
+                    <p class="stat-label">Familles habillées dignement lors des collectes</p>
+                </div>
+                <div class="stat-card" data-tilt>
+                    <div class="stat-icon-wrapper direct">
+                        <i class="fa-solid fa-hand-holding-heart stat-icon" style="color:var(--color-purple);"></i>
+                        <span class="stat-halo"></span>
+                    </div>
+                    <div class="stat-number" data-target="100" data-suffix="%">0</div>
+                    <p class="stat-label">Des dons alloués directement au terrain</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RECENT ACTIONS SECTION -->
+    <section class="section-padding bg-light" data-reveal="fade-up">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Dernières actions</span>
+                <h2>Découvrez nos actions récentes sur le terrain</h2>
+                <div class="section-divider center"></div>
+            </div>
+            
+            <div class="actions-grid reveal-stagger">
+                <!-- Action 1 -->
+                <article class="action-card" data-tilt>
+                    <div class="action-img-wrapper">
+                        <img src="assets/images/hero/Volunteer_giving_kit_202604231310.jpeg" alt="Distribution de kits" class="action-img">
+                        <span class="action-badge" style="background-color:var(--color-green);">Éducation</span>
+                    </div>
+                    <div class="action-content">
+                        <div class="action-meta">
+                            <span><i class="fa-regular fa-calendar"></i> 15 Octobre 2025</span>
+                            <span><i class="fa-solid fa-location-dot"></i> Douala</span>
+                        </div>
+                        <h3>Distribution de kits scolaires à Douala</h3>
+                        <p style="color:var(--color-text-secondary); font-size:0.95rem;">Plus de 500 élèves ont reçu des fournitures pour la rentrée, leur permettant de démarrer l'année sereinement.</p>
+                        <a href="nos-actions.html" class="read-more">Lire la suite <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Action 2 -->
+                <article class="action-card" data-tilt>
+                    <div class="action-img-wrapper">
+                        <img src="assets/images/hero/Children_sharing_nutritious_202604231303.jpeg" alt="Cantine solidaire" class="action-img">
+                        <span class="action-badge" style="background-color:var(--color-orange);">Nutrition</span>
+                    </div>
+                    <div class="action-content">
+                        <div class="action-meta">
+                            <span><i class="fa-regular fa-calendar"></i> 2 Septembre 2025</span>
+                            <span><i class="fa-solid fa-location-dot"></i> Yaoundé</span>
+                        </div>
+                        <h3>Lancement de la cantine solidaire à Yaoundé</h3>
+                        <p style="color:var(--color-text-secondary); font-size:0.95rem;">Mise en place d'un programme de repas chauds hebdomadaires pour les enfants d'un quartier défavorisé.</p>
+                        <a href="nos-actions.html" class="read-more">Lire la suite <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Action 3 -->
+                <article class="action-card" data-tilt>
+                    <div class="action-img-wrapper">
+                        <img src="assets/images/hero/benevole-donne-vetement-202604231259.jpeg" alt="Collecte vetements" class="action-img">
+                        <span class="action-badge" style="background-color:var(--color-blue);">Aide Sociale</span>
+                    </div>
+                    <div class="action-content">
+                        <div class="action-meta">
+                            <span><i class="fa-regular fa-calendar"></i> 14 Juillet 2025</span>
+                            <span><i class="fa-solid fa-location-dot"></i> Bafoussam</span>
+                        </div>
+                        <h3>Grande collecte et don de vêtements</h3>
+                        <p style="color:var(--color-text-secondary); font-size:0.95rem;">Une grande collecte qui a permis d'habiller plus de 200 familles vulnérables à l'approche de la saison des pluies.</p>
+                        <a href="nos-actions.html" class="read-more">Lire la suite <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+            
+            <div class="text-center" style="margin-top:45px;">
+                <a href="nos-actions.html" class="btn btn-tertiary btn-animated-arrow">
+                    <span>Voir toutes les actions</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CALL TO ACTION -->
+    <section class="section-padding cta-section" data-reveal="fade-up">
+        <div class="cta-mesh-glow"></div>
+        <div class="container" style="position:relative; z-index:2;">
+            <span class="cta-pill"><i class="fa-solid fa-hand-holding-heart"></i> Agir ensemble</span>
+            <h2 style="font-size: clamp(2rem, 4vw, 2.6rem); margin-bottom: 20px;">Rejoignez notre mission</h2>
+            <div class="section-divider center white"></div>
+            <p style="font-size: 1.15rem; max-width: 620px; margin: 0 auto 35px; opacity: 0.95; line-height: 1.6;">Votre soutien fait toute la différence. Ensemble, faisons bouger les lignes pour les enfants et les familles vulnérables !</p>
+            <div class="cta-actions">
+                <a href="contact.html?sujet=don" class="btn btn-cta-primary">
+                    <i class="fa-solid fa-heart" style="color:var(--color-orange); margin-right:8px;"></i>
+                    <span>Faire un don</span>
+                </a>
+                <a href="contact.html?sujet=benevolat" class="btn btn-cta-secondary">
+                    <i class="fa-solid fa-users" style="margin-right:8px;"></i>
+                    <span>Devenir bénévole</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                
+                <div class="footer-col">
+                    <span class="footer-logo-text">Association Humanitaire<br>"LE PETIT NICOLAS"</span>
+                    <p>L'énergie qui fait bouger les lignes. Association humanitaire communautaire œuvrant au Cameroun pour l'éducation, la petite enfance et les personnes vulnérables.</p>
+                </div>
+
+                <div class="footer-col">
+                    <h3>Liens Rapides</h3>
+                    <ul class="footer-links">
+                        <li><a href="qui-sommes-nous.html">Qui sommes-nous ?</a></li>
+                        <li><a href="nos-missions.html">Nos missions</a></li>
+                        <li><a href="nos-actions.html">Nos actions</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3>Contact</h3>
+                    <ul class="footer-contact">
+                        <li><i class="fa-solid fa-location-dot"></i> <span>Douala, Cameroun</span></li>
+                        <li><i class="fa-solid fa-envelope"></i> <span>contact@lepetitnicolas.org</span></li>
+                        <li><i class="fa-solid fa-phone"></i> <span>+237 XXX XX XX XX</span></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3>Restez informés</h3>
+                    <p style="margin-bottom:15px; font-size:0.9rem;">Inscrivez-vous à notre newsletter pour suivre nos actions.</p>
+                    <form class="newsletter-form" action="#" method="POST">
+                        <div class="form-group" style="display:flex; gap:10px;">
+                            <input type="email" class="form-control" placeholder="Votre email" required style="flex:1;">
+                            <button type="submit" class="btn btn-primary" style="padding:10px 15px;"><i class="fa-solid fa-paper-plane"></i></button>
+                        </div>
+                    </form>
+                    <div class="social-links" style="margin-top:20px;">
+                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Association Humanitaire "LE PETIT NICOLAS". Tous droits réservés.</p>
+                <div class="footer-legal">
+                    <a href="mentions-legales.html">Mentions légales</a>
+                    <a href="politique-confidentialite.html">Politique de confidentialité</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript & Bibliothèques Fluides (100% Locales, Zéro dépendance externe) -->
+    <script src="assets/js/vendor/lenis.min.js"></script>
+    <script src="assets/js/vendor/swup.min.js"></script>
+    <script src="assets/js/main.js?v=4.1"></script>
+</body>
+</html>
