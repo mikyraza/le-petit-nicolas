@@ -1,0 +1,15 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/index.php", "destination": "/index.html" },
+    { "source": "/qui-sommes-nous.php", "destination": "/qui-sommes-nous.html" },
+    { "source": "/nos-missions.php", "destination": "/nos-missions.html" },
+    { "source": "/nos-actions.php", "destination": "/nos-actions.html" },
+    { "source": "/nous-soutenir.php", "destination": "/nous-soutenir.html" },
+    { "source": "/contact.php", "destination": "/contact.html" },
+    { "source": "/mentions-legales.php", "destination": "/mentions-legales.html" },
+    { "source": "/politique-confidentialite.php", "destination": "/politique-confidentialite.html" },
+    { "source": "/", "destination": "/index.html" }
+  ]
+}

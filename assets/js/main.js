@@ -146,11 +146,13 @@
 
         // Contenu de la nouvelle page injecté
         swup.hooks.on('page:view', () => {
-            // Mettre à jour les liens actifs du menu
-            const currentPath = window.location.pathname.split('/').pop() || 'index.php';
+            // Mettre à jour les liens actifs du menu (support universel .php, .html et routes Vercel)
+            const rawPath = window.location.pathname.split('/').filter(Boolean).pop() || 'index';
+            const currentSlug = rawPath.replace(/\.(php|html)$/, '') || 'index';
             document.querySelectorAll('.nav-list a').forEach((link) => {
-                const linkHref = link.getAttribute('href');
-                if (linkHref === currentPath || (currentPath === '' && linkHref === 'index.php')) {
+                const linkHref = (link.getAttribute('href') || '').split('/').filter(Boolean).pop() || '';
+                const linkSlug = linkHref.replace(/\.(php|html)$/, '') || 'index';
+                if (linkSlug === currentSlug || (currentSlug === 'index' && (linkSlug === '' || linkSlug === 'index'))) {
                     link.classList.add('active');
                 } else {
                     link.classList.remove('active');
