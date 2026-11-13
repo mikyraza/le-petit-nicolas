@@ -1,0 +1,53 @@
+/* ==========================================================================
+   Variables CSS - Le Petit Nicolas
+   ========================================================================== */
+
+:root {
+    /* Couleurs Principales (Charte) */
+    --color-green: #4CAF50; /* Mission Éducation */
+    --color-orange: #FF9800; /* Mission Famine / CTA */
+    --color-orange-dark: #E68900; /* Hover CTA */
+    --color-blue: #2196F3; /* Mission Vêtements */
+    --color-purple: #9C27B0; /* Décoratif */
+    --color-red: #F44336; /* Alertes */
+
+    /* Couleurs Neutres */
+    --color-white: #FFFFFF;
+    --color-light-gray: #F5F5F5;
+    --color-border: #DDDDDD;
+    --color-gray: #999999;
+    --color-text-secondary: #666666;
+    --color-text: #333333;
+    --color-black: #000000;
+    --color-dark-bg: #222222;
+
+    /* Typographie */
+    --font-primary: 'Poppins', sans-serif;
+    --font-secondary: 'Open Sans', sans-serif;
+
+    /* Espacements & Layout */
+    --container-max-width: 1200px;
+    --container-padding: 20px;
+    --section-padding: 80px 0;
+    --section-padding-mobile: 50px 0;
+
+    /* Ombres & Effets */
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 8px 15px rgba(0, 0, 0, 0.15);
+    
+    /* Bordures & Radius */
+    --radius-sm: 4px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
+
+    /* Transitions */
+    --transition-fast: 0.2s ease;
+    --transition-normal: 0.3s ease;
+    --transition-slow: 0.5s ease;
+    
+    /* Z-Index Hierarchy */
+    --z-header: 1000;
+    --z-overlay: 2000;
+    --z-modal: 3000;
+}

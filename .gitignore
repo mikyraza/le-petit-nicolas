@@ -1,0 +1,14 @@
+# Archives de sauvegarde (trop volumineuses pour Git)
+*.zip
+*.tar.gz
+*.rar
+
+# Fichiers de test temporaires
+live_index_temp.html
+*.tmp
+*.log
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+.directory
