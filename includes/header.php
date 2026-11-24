@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <!-- CSS unique consolidé -->
-    <link rel="stylesheet" href="/assets/css/style.css?v=4.0">
+    <link rel="stylesheet" href="/assets/css/style.css?v=4.2">
     <?php if (isset($_GET['capture'])): ?>
     <style>
         .site-preloader, #site-preloader { display: none !important; }

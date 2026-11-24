@@ -36,7 +36,7 @@
                             <div style="width:50px; height:50px; background:var(--color-light-gray); border-radius:50%; display:flex; align-items:center; justify-content:center; color:var(--color-blue); font-size:1.2rem;">
                                 <i class="fa-solid fa-phone"></i>
                             </div>
-                            <span><strong>Téléphone :</strong><br> +237 XXX XX XX XX</span>
+                            <span><strong>Téléphone :</strong><br> +237 694 64 59 46</span>
                         </li>
                     </ul>
 

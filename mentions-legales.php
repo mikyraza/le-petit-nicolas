@@ -17,9 +17,11 @@
                 L'<strong>Association Humanitaire "LE PETIT NICOLAS"</strong> est une organisation non gouvernementale à but non lucratif régie par les lois et règlements en vigueur au Cameroun.<br><br>
                 <strong>Dénomination officielle :</strong> Association Humanitaire "LE PETIT NICOLAS"<br>
                 <strong>Siège social :</strong> Douala, République du Cameroun<br>
-                <strong>Présidente & Fondatrice :</strong> Mme DJAPITE Ndoumbe<br>
+                <strong>Présidente & Fondatrice :</strong> Mathio Etaba épse DJAPITE NDOUMBE Madeleine Solange<br>
+<strong>Contact :</strong> 694 64 59 46<br>
+<strong>Email :</strong> djapitemadeleinesolange@gmail.com<br>
                 <strong>Email officiel :</strong> contact@lepetitnicolas.org<br>
-                <strong>Téléphone :</strong> +237 XXX XX XX XX
+                <strong>Téléphone :</strong> +237 694 64 59 46
             </p>
 
             <h2 style="font-size: 1.6rem; color: var(--color-orange); margin-bottom: 15px;">2. Objet et Missions</h2>

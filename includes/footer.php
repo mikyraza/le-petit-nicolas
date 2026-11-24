@@ -23,7 +23,7 @@
                     <ul class="footer-contact">
                         <li><i class="fa-solid fa-location-dot"></i> <span>Douala, Cameroun</span></li>
                         <li><i class="fa-solid fa-envelope"></i> <span>contact@lepetitnicolas.org</span></li>
-                        <li><i class="fa-solid fa-phone"></i> <span>+237 XXX XX XX XX</span></li>
+                        <li><i class="fa-solid fa-phone"></i> <span>+237 694 64 59 46</span></li>
                     </ul>
                 </div>
 
